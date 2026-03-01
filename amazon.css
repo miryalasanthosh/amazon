@@ -1,0 +1,36 @@
+body {
+    background-color: #fff !important;
+}
+
+.thumb {
+    cursor: pointer;
+    transition: 0.2s;
+    width: 60px;
+}
+
+.thumb:hover {
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgba(228, 121, 17, .5);
+}
+
+.btn-warning {
+    background-color: #FFD814 !important;
+    border-color: #FCD200 !important;
+}
+
+.btn-warning:hover {
+    background-color: #F7CA00 !important;
+}
+
+/* Make the right sidebar sticky on desktop */
+@media (min-width: 992px) {
+    .col-lg-3 {
+        position: sticky;
+        top: 20px;
+        height: fit-content;
+    }
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
